@@ -21,7 +21,6 @@ const usuarioPut = (req,res = response)=>{
     //const id= req.params.id;
     const { id }= req.params;
 
-
     res.json({
         ok: true,
         msg: 'put API - controlador',
@@ -31,7 +30,6 @@ const usuarioPut = (req,res = response)=>{
 
 const usuarioPost =  (req,res = response)=>{
     const {nombre, edad}= req.body;
-
 
     res.json({
         ok: true,
